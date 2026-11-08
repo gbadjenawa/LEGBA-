@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#163d2d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<meta name="description" content="AGRINOVA BOUTIQUE : découvrez des produits, commandez en ligne et faites-vous livrer partout au Bénin. Paiement et livraison confirmés par la boutique.">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_BJ">
+<meta property="og:site_name" content="AGRINOVA BOUTIQUE"><meta property="og:title" content="AGRINOVA BOUTIQUE — Achetez facilement au Bénin">
+<meta property="og:description" content="Découvrez les articles AGRINOVA et commandez directement auprès de notre boutique au Bénin.">
+<meta name="twitter:card" content="summary">
+<title>AGRINOVA BOUTIQUE — Boutique officielle AGRINOVA au Bénin</title>
+<style>
+:root{--green:#163d2d;--green2:#26734c;--gold:#e4b34c;--bg:#f5f7f5;--ink:#1d2a22;--muted:#637168;--line:#dce5dd;--white:#fff;--red:#b42318;--radius:16px}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0;border-radius:10px;padding:10px 14px;font-weight:650}button:disabled{opacity:.5;cursor:not-allowed}.primary{background:var(--green);color:#fff}.secondary{background:#e9f1eb;color:var(--green)}.danger{background:#fff0ef;color:var(--red)}.ghost{background:transparent;color:inherit;border:1px solid var(--line)}.topbar{background:var(--green);color:white;position:sticky;top:0;z-index:10;box-shadow:0 3px 14px #102b2020}.top-inner{max-width:1200px;margin:auto;padding:12px 18px;display:flex;align-items:center;gap:14px;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:850;letter-spacing:.4px}.logo{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--gold);color:var(--green);font-size:21px}.brand small{display:block;font-size:11px;font-weight:500;opacity:.8;letter-spacing:1.4px}.nav{display:flex;gap:8px;align-items:center}.nav button{color:white;background:transparent}.nav button.active,.nav button:hover{background:#ffffff20}.wrap{max-width:1200px;margin:auto;padding:22px 18px 60px}.hero{background:linear-gradient(120deg,#163d2d,#28744d);color:white;border-radius:22px;padding:28px;display:grid;grid-template-columns:1.5fr 1fr;gap:20px;align-items:center;overflow:hidden}.hero h1{font-size:clamp(26px,4vw,42px);line-height:1.08;margin:8px 0 12px}.hero p{max-width:580px;color:#e0ece4}.hero-bubble{justify-self:center;background:#ffffff14;border:1px solid #ffffff28;border-radius:50%;width:190px;height:190px;display:grid;place-items:center;font-size:80px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:1.5px;color:var(--gold);text-transform:uppercase}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:22px 0}.field{display:flex;flex-direction:column;gap:6px;min-width:0}.field label{font-size:13px;color:#405047;font-weight:700}.field input,.field select,.field textarea,input.search{border:1px solid #cfdad1;border-radius:10px;padding:11px 12px;background:white;min-width:0;width:100%;color:var(--ink)}.field textarea{min-height:92px;resize:vertical}.search{flex:1;min-width:180px;max-width:430px}.section-title{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:24px 0 12px}.section-title h2{margin:0;font-size:23px}.muted{color:var(--muted)}.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.product{border:1px solid var(--line);border-radius:var(--radius);background:white;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 8px #1e38280a;cursor:pointer;transition:transform .15s,box-shadow .15s}.product:hover{transform:translateY(-2px);box-shadow:0 8px 22px #1e382818}.product-img{height:150px;background:#edf3ee;display:grid;place-items:center;overflow:hidden;font-size:48px;color:var(--green)}.product-img img{width:100%;height:100%;object-fit:cover}.product-body{padding:13px;display:flex;flex-direction:column;gap:8px;flex:1}.category{font-size:11px;font-weight:800;letter-spacing:.8px;color:var(--green2);text-transform:uppercase}.product h3{margin:0;font-size:16px}.price{font-weight:850;color:var(--green);font-size:19px}.price small{font-size:11px;font-weight:600;color:var(--muted)}.product-footer{display:flex;gap:8px;margin-top:auto}.product-footer button{flex:1}.panel{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin:16px 0}.hidden{display:none!important}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.stat{background:white;border:1px solid var(--line);border-radius:14px;padding:16px}.stat span{font-size:12px;color:var(--muted)}.stat strong{display:block;font-size:24px;margin-top:5px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tabs button{border:1px solid var(--line);background:white;color:var(--ink)}.tabs button.active{background:var(--green);color:white;border-color:var(--green)}.grid-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.full{grid-column:1/-1}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;background:white}table{border-collapse:collapse;width:100%;min-width:650px}th,td{padding:12px;text-align:left;border-bottom:1px solid var(--line);font-size:13px}th{background:#eff4f0;color:#405047;font-size:12px;text-transform:uppercase;letter-spacing:.45px}tr:last-child td{border-bottom:0}.badge{display:inline-block;border-radius:999px;padding:4px 9px;background:#edf2ee;font-size:12px;font-weight:700}.badge.pending{background:#fff4d8;color:#7b5900}.badge.paid,.badge.confirmed{background:#e1f5e8;color:#14613a}.badge.cancelled{background:#ffebea;color:#a3251c}.notice{padding:12px 14px;border-radius:10px;background:#fff7df;border:1px solid #f1d58f;color:#6c5000;font-size:13px;margin:12px 0}.ok{background:#e8f7ed;border-color:#b4e3c4;color:#185a32}.foot{border-top:1px solid var(--line);margin-top:35px;padding-top:18px;color:var(--muted);font-size:12px}.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}.empty{text-align:center;padding:38px 18px;color:var(--muted)}.conn{font-size:12px;color:#dcece1;display:flex;align-items:center;gap:6px}.dot{width:8px;height:8px;border-radius:50%;background:#e4b34c;display:inline-block}.orderline{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}.modal-bg{position:fixed;inset:0;background:#07150dc9;z-index:30;display:flex;align-items:center;justify-content:center;padding:16px}.modal{width:min(480px,100%);background:white;border-radius:18px;padding:22px;max-height:90vh;overflow:auto}.modal h2{margin-top:0}.product-detail-modal{width:min(820px,100%)}.product-detail-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start}.product-detail-placeholder{height:320px;display:grid;place-items:center;background:#f0f5f1;border-radius:14px;font-size:90px}.row-actions{display:flex;gap:7px;flex-wrap:wrap}.qty{display:flex;gap:8px;align-items:center}.qty button{padding:4px 10px}.cart-drawer{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fbfdfb}.seller-hero{background:#edf5ef;border:1px solid #cfe0d2;border-radius:16px;padding:20px;margin-bottom:20px}@media(max-width:650px){.product-detail-layout{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}}
+</style>
+<!-- Inclusion de la bibliothèque Supabase originale -->
+<script src="https://jsdelivr.net"></script>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="top-inner">
+      <div class="brand">
+        <div class="logo">🌱</div>
+        <div>AGRINOVA<small>BOUTIQUE EN LIGNE</small></div>
+      </div>
+      <div class="conn"><span class="dot"></span> Bénin — Ventes &amp; Livraisons</div>
+      <nav class="nav">
+        <button id="nav-shop" class="active" onclick="setView('shop')">Boutique</button>
+        <button id="nav-cart" onclick="setView('cart')">Panier (<span id="cart-count-badge">0</span>)</button>
+        <button id="nav-admin" onclick="setView('admin')">Administration</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <!-- VUE BOUTIQUE -->
+    <div id="view-shop">
+      <div class="hero">
+        <div>
+          <span class="eyebrow">Vos achats, simplement.</span>
+          <h1>Bienvenue chez AGRINOVA</h1>
+          <p>Découvrez nos produits agricoles et transformés au Bénin. Ajoutez vos articles préférés au panier et passez commande en quelques clics.</p>
+        </div>
+        <div class="hero-bubble">🛍️</div>
+      </div>
+
+      <div class="toolbar">
+        <input type="text" id="search-input" class="search" placeholder="Rechercher un produit..." oninput="filterCatalog()">
+        <div class="field">
+          <select id="cat-filter" onchange="filterCatalog()">
+            <option value="all">Toutes les catégories</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section-title">
+        <h2>Catalogue des produits</h2>
+        <span class="muted" id="catalog-count">0 produit disponible</span>
+      </div>
+      <div class="products" id="catalog-grid"></div>
+    </div>
+
+    <!-- VUE PANIER -->
+    <div id="view-cart" class="hidden">
+      <h2>Mon panier</h2>
+      <div class="split">
+        <div class="cart-drawer" id="cart-list-container">
+          <!-- Injecté par JS -->
+        </div>
